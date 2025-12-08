@@ -36,6 +36,8 @@ int main() {
         printf("[2] Buscar o valor máximo\n");
         printf("[3] Buscar o valor mínimo\n");
         printf("[4] Buscar valor\n");
+        printf("[5] Remover valor\n");
+        printf("[6] Exibir\n");
 
         scanf("%d", &escolhaUser);
         switch (escolhaUser) {
@@ -79,7 +81,7 @@ int main() {
                 exibirArvore(raiz, 0);
                 break;
             case 6:
-                exibirArvore(&raiz, 0);
+                exibirArvore(raiz, 0);
                 break;
         }
     }
